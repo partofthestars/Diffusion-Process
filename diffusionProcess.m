@@ -56,10 +56,6 @@ for f=1:frames
     %spatial RGB correlation:
     C=(values'*values)/(rows*cols);
     [V,D] = eig(C);
-    
-    [U_,S_,V_] = svd(C);
-    
-    V_tmp=V;
 
     [D,I] = sort(diag(D),'descend');
      V = V(:, I);
@@ -124,7 +120,7 @@ p_blocked = filtfilt(b, a, double(pulse(:,end)));
 sd = 0.025;
 %the process spectral density for the bias model rep-
 %resents the continuous time noise in the sensor signal
-BQ = 0.001;
+bq = 0.001;
 %the resonator process noise spectral density defines
 %the continuous-time variation of the resonator sig-
 %nals. adjust primarily this parameter to control the
@@ -144,7 +140,7 @@ poverall = 0;
 %frequency search space
 freqlist=45:120;
 
-p_blocked_dp=tracker(p_blocked,dt,freqlist,nharm,BQ,sd,qr,ptrans,poverall);
+p_blocked_dp=tracker(p_blocked,dt,freqlist,nharm,bq,sd,qr,ptrans,poverall);
 
 
 %raw signal
