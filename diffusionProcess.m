@@ -2,16 +2,20 @@
 %%
 %%	PPGI: Diffusion Procss
 %%
+%%	Christian S. Pilz, Jarek Krajewski, Vladimir Blazek.
+%%      On the Diffusion Process for Heart Rate Estimation from Face Videos under Realistic Conditions. 
+%%      Pattern Recognition: 39th German Conference, GCPR 2017, Basel, Switzerland. 
+%%      Proceedings (Lecture Notes in Computer Science), Springer, 2017
 %%
-%% Author   : Christian S. Pilz
-%% Date     : 15.03.2017
+%%      Author   : Christian S. Pilz
+%%      Date     : 15.03.2017
 %%
-%% Contact  : cpi@partofthestars.com
-%% Web Page : www.partofthestars.com
+%%      Contact  : cpi@partofthestars.com
+%%      Web Page : www.partofthestars.com
 %%
-%% Version  : Alpha RA 1.0
+%%      Version  : Alpha RA 1.0
 %%
-%% License  : GPL v3
+%%      License  : GPL v3
 %%
 %%########################################################################
 %%
