@@ -1,4 +1,4 @@
-# DiffusionProcess
+# Diffusion Process
 
 Christian S. Pilz, Jarek Krajewski, Vladimir Blazek.<br>
 On the Diffusion Process for Heart Rate Estimation from Face Videos under Realistic Conditions.<br> 
