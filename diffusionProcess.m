@@ -57,6 +57,9 @@ for f=1:frames
     %raw mean traces
     trace(f,:)=mean(values);
     
+    % spatial subspace rotation features
+    %
+    
     %spatial RGB correlation:
     C=(values'*values)/(rows*cols);
     [V,D] = eig(C);
